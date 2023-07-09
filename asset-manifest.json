@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/personal-transaction-managemet-project/static/css/main.e8772fe5.css",
+    "main.js": "/personal-transaction-managemet-project/static/js/main.b72b1b7b.js",
+    "static/js/440.48121a1b.chunk.js": "/personal-transaction-managemet-project/static/js/440.48121a1b.chunk.js",
+    "index.html": "/personal-transaction-managemet-project/index.html",
+    "main.e8772fe5.css.map": "/personal-transaction-managemet-project/static/css/main.e8772fe5.css.map",
+    "main.b72b1b7b.js.map": "/personal-transaction-managemet-project/static/js/main.b72b1b7b.js.map",
+    "440.48121a1b.chunk.js.map": "/personal-transaction-managemet-project/static/js/440.48121a1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8772fe5.css",
+    "static/js/main.b72b1b7b.js"
+  ]
+}
