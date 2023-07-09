@@ -1,0 +1,13 @@
+.add-transaction-bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: 0px 8px 40px rgba(7, 7, 7, 0.08);
+}
+.add-transaction-container {
+  height: 30%;
+  width: 30%;
+  background-color: white;
+}
+.add-para {
+  color: black;
+}

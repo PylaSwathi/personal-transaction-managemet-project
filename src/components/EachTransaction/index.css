@@ -1,0 +1,37 @@
+.transaction-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 45px;
+  width: 100%;
+}
+.horizontal-line {
+  border: 1px solid #e2e8f0;
+  width: 92%;
+}
+.debit-icon-color {
+  color: #fe5c73;
+}
+.credit-icon-color {
+  color: #34d399;
+}
+.icon-image1 {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  color: #6e798c;
+}
+.transaction-name {
+  font-size: 12px;
+  color: #6e798c;
+  font-weight: 500;
+
+  width: 20%;
+}
+.weight {
+  font-weight: 600;
+}
+.name-cont1 {
+  width: 25%;
+}

@@ -1,0 +1,255 @@
+.dashboard-bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;
+  align-items: center;*/
+}
+.dashboard-navbar {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid #e2e2e2;
+  border: 0px, 1px, 0px, 0px;
+}
+.website-logo {
+  height: 38px;
+  width: 209px;
+  margin-top: 31px;
+  margin-left: 20px;
+}
+.dashboard-list-container {
+  list-style-type: none;
+  width: 207px;
+  height: 171px;
+  top: 114px;
+}
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*border: 1px solid black;*/
+  width: 80%;
+}
+.nav-item-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+
+  color: #6e798c;
+}
+.nav-item {
+  color: #6e798c;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 10px;
+  width: 60%;
+}
+.dashboard-link-container {
+  text-decoration: none;
+}
+.active-nav {
+  color: #0808fe;
+}
+.loader {
+  align-self: center;
+  margin-left: 50%;
+}
+.dashboard-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  left: 250px;
+  border: 1px solid black;
+}
+.dashboard-upper-section {
+  width: 80%;
+  height: 50px;
+  padding: 24px, 40px, 24px, 40px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: fixed;
+  top: 0px;
+  left: 250px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
+}
+.dashboard-heading {
+  color: #6e798c;
+  font-size: 20px;
+}
+.add-transaction-btn {
+  width: 166px;
+  height: 36px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 10px;
+  gap: 4px;
+  background-color: #8080ff;
+  color: white;
+  border-style: none;
+  margin-top: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.dashboard-lower-section {
+  display: flex;
+  flex-direction: column;
+
+  top: 50px;
+  left: 250px;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: #f5f7fa;
+  background-size: cover;
+  overflow-y: scroll;
+}
+.dashboard-debit-credit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 170px;
+  width: 80%;
+}
+.latest-transactions-card {
+  width: 72%;
+
+  top: 300px;
+  margin-left: 40px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+
+  padding: 0px;
+  background-size: cover;
+}
+.para {
+  font-size: 15px;
+  color: #6e798c;
+  margin-bottom: 0px;
+  margin-left: 45px;
+  font-weight: 600;
+}
+.add-transaction-form-container {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 60% !important;
+  width: 40% !important;
+}
+.add-transaction-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0b4870;
+}
+
+.modal {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.modal > .header {
+  width: 100%;
+}
+.head {
+  font-size: 25px;
+  color: #0b4870;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+}
+.para {
+  font-size: 18px;
+  color: #6e798c;
+  font-weight: 500;
+  margin-left: 10%;
+}
+.area {
+  width: 80%;
+
+  margin-left: 10%;
+}
+.modal > .content {
+  padding: 10px 5px;
+
+  height: 50%;
+  width: 100%;
+  align-self: center;
+  border-radius: 10px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+.input-box1 {
+  height: 30px;
+  width: 200%;
+  border-radius: 5px;
+  margin: 5px;
+  color: #67b0be;
+  font-size: 12px;
+  border: 1px solid #99cad3;
+  padding-left: 10px;
+  outline: none;
+}
+.profile-each-field-container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  height: 50px;
+}
+.popup-content {
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 30%;
+}
+.select {
+  width: 100%;
+}
+.error {
+  color: #fb7a85;
+  font-weight: bold;
+}
+.button {
+  height: 35px;
+  width: 150px;
+  background-color: #007bff;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}

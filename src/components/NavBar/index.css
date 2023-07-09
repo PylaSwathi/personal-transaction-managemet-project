@@ -1,0 +1,123 @@
+.dashboard-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+.website-logo {
+  height: 38px;
+  width: 209px;
+  margin-top: 31px;
+  margin-left: 20px;
+}
+.navbar-list-container {
+  list-style-type: none;
+  width: 207px;
+  height: 171px;
+  margin-top: 0px;
+}
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80%;
+}
+.nav-item-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+
+  color: #6e798c;
+}
+.nav-item {
+  color: #6e798c;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 10px;
+  width: 60%;
+}
+.navbar-link-container {
+  text-decoration: none;
+}
+.active-nav {
+  color: #0808fe;
+}
+.navbar-profile-container {
+  display: flex;
+  flex-direction: row;
+  width: 249px;
+  height: 96px;
+  top: 928px;
+  padding: 0px 0px 32px 0px;
+  gap: 24px;
+}
+.navbar-upper-part {
+  height: 50%;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid #e2e2e2;
+  border: 0px, 1px, 0px, 0px;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+}
+.profile-card {
+  width: 249px;
+  height: 96px;
+  top: 928px;
+  padding: 0px 0px 32px 0px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e2e2e2;
+  margin-bottom: 0px;
+}
+.card {
+  width: 193px;
+  height: 40px;
+  gap: 8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  color: #6e798c;
+  /*background-color: #e2e8f0;*/
+}
+.navbar-profile-details-container {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 141;
+}
+.nav-item-email {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px;
+}
+.nav-item-name {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+}
+.profile-link {
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,118 @@
+.transactions-bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;
+  align-items: center;*/
+}
+.transactions-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  left: 250px;
+  border: 1px solid black;
+}
+
+.transactions-upper-section {
+  width: 80%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  left: 250px;
+  border-bottom: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+  background-color: white;
+  padding-left: 10px;
+}
+.transactions-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 50px;
+}
+.transactions-heading {
+  color: #6e798c;
+  font-size: 20px;
+}
+.add-transaction-btn {
+  width: 166px;
+  height: 36px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 10px;
+  gap: 4px;
+  background-color: #8080ff;
+  color: white;
+  border-style: none;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.dashboard-lower-section {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  top: 50px;
+  left: 250px;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+
+  background-color: #f5f7fa;
+}
+.transactions-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 50px;
+  padding: 24px, 40px, 24px, 40px;
+  padding-left: 24px;
+  top: 0px;
+  left: 250px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
+}
+.transactions-list-container {
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+
+  height: 30px;
+  padding-left: 0px;
+}
+.navbar-link-container {
+  cursor: pointer;
+  outline: none;
+}
+.active {
+  color: #60a5fa;
+  border-bottom: 2px solid #60a5fa;
+  font-size: 15px;
+}
+.non-active {
+  color: #6e798c;
+  font-size: 15px;
+  font-weight: 600;
+}
+.transactions-lower-section {
+  display: flex;
+  flex-direction: column;
+  top: 90px;
+  left: 250px;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: #f5f7fa;
+  background-size: cover;
+  overflow-y: scroll;
+}

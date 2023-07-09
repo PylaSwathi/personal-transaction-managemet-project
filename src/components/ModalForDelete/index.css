@@ -1,0 +1,79 @@
+.popup-content1 {
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.modal > .content {
+  padding: 10px 5px;
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.delete-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.delete-icon-popup {
+  height: 40px;
+  width: 40px;
+  color: #facc15;
+  align-self: center;
+  margin-left: 40%;
+}
+.delete-icon-cont {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #facc15;
+}
+
+.delete-icon-popup-row {
+  display: flex;
+  flex-direction: column;
+}
+.head4 {
+  font-size: 15px;
+  color: #0b4870;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+}
+.para6 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6e798c;
+  margin-left: 10px;
+}
+.button1 {
+  height: 35px;
+  width: 150px;
+  background-color: #fb7185;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+.button2 {
+  height: 35px;
+  width: 150px;
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+  border-color: black;
+  border-width: 1px;
+  color: black;
+}
