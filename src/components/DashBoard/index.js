@@ -4,7 +4,6 @@ import Credit from "../Credit/index";
 import Debit from "../Debit/index";
 import ModalForAdd from "../ModalForAdd/index";
 import LatestTransaction from "../LatestTransaction/index";
-import BarGraph from "../BarGraph/index";
 import Cookies from "js-cookie";
 import Loader from "react-loader-spinner";
 //import Popup from "reactjs-popup";
